@@ -14,4 +14,4 @@ Deck.o: Deck.cpp Deck.h
 	g++ -c Deck.cpp Deck.h
 
 clean:
-	rm *.o *.gch
+	rm *.o *.gch uno

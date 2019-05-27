@@ -156,4 +156,5 @@ bool Hand::play(Deck * deck)
             return true;
         }
     }
+    return false;
 }
