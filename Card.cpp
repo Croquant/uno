@@ -1,6 +1,12 @@
+/**
+ * FILE:    Card.cpp
+ * AUHTOR:  Maxime Desmet Vanden Stock
+ * DATE:    MAY 2019
+ */
+
 #include "Card.h"
 #include <iostream>
-
+    
 // Default card constructor
 Card::Card() : num(0), col(black)
 {
@@ -16,7 +22,7 @@ Card::Card(int n, Color c) : num(n), col(c)
 // Default Card destructor
 Card::~Card()
 {
-    //dtor
+
 }
 
 // Outputs the name of the card
@@ -26,33 +32,6 @@ void Card::getName()
     std::string out = "";
     switch(num)
     {
-    case 0:
-        out += "0";
-        break;
-    case 1:
-        out += "1";
-        break;
-    case 2:
-        out += "2";
-        break;
-    case 3:
-        out += "3";
-        break;
-    case 4:
-        out += "4";
-        break;
-    case 5:
-        out += "5";
-        break;
-    case 6:
-        out += "6";
-        break;
-    case 7:
-        out += "7";
-        break;
-    case 8:
-        out += "8";
-        break;
     case 9:
         out += "9";
         break;
@@ -68,6 +47,8 @@ void Card::getName()
     case 13:
         out += "+4";
         break;
+    default:
+        out += std::to_string(num);
     }
     out += "(";
     switch(col)
