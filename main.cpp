@@ -38,13 +38,13 @@ int main()
     Deck deck;
 
     // Title screen
-    std::cout << "db    db   d8b   db    .d88b. \n";
-    std::cout << "88    88   888o  88   .8P  Y8.\n";
-    std::cout << "88    88   88V8o 88   88    88\n";
-    std::cout << "88    88   88 V8o88   88    88\n";
-    std::cout << "88    88   88 V8o88   88    88\n";
-    std::cout << "~Y8888P'   VP   V8P    `Y88P'\n";
-    std::cout << "________________________________\n\n";
+    std::cout << " db    db   d8b   db    .d88b.   \n";
+    std::cout << " 88    88   888o  88   .8P  Y8.  \n";
+    std::cout << " 88    88   88V8o 88   88    88  \n";
+    std::cout << " 88    88   88 V8o88   88    88  \n";
+    std::cout << " 88    88   88 V8o88   88    88  \n";
+    std::cout << " ~Y8888P'   VP   V8P    `Y88P'   \n";
+    std::cout << "_________________________________\n\n";
     std::cout << "The game is starting...\n";
     std::cout << "You draw 7 cards.\n";
     cin.get();
